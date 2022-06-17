@@ -2,14 +2,7 @@
     padding: 0;
     margin: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    height: 50%;
-    align-items: center;
-   padding-top: 30vh;
-    
-}
+
 main{
     background-color: black;
     display: grid;
