@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+h1{
+  font-family: "Big Shoulders Display", cursive;
+  padding-top: 60px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+  padding: 20px;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+.box {
+  font-family: "Big Shoulders Display", Times New Roman;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sedan {
+  width: 40%;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+  height: 50%;
+}
+.suv {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+  width: 40%;
+  height: 50%;
+}
+
+.luxury {
+  font-family: Big Shoulders Display;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  width: 40%;
+  height: 50%;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  border: 0;
+  margin-top: 40px;
+  padding: 9px;
+}
+button:hover {
+  border: solid 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+/*  these below contain the font colors for each button*/
+.seb {
+  color: hsl(31, 77%, 52%);
+}
+.sub {
+  color: hsl(184, 100%, 22%);
+}
+.lb {
+  color: hsl(179, 100%, 13%);
+}
+
+/*  these below are the background colors for each button during hover*/
+.seb:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.sub:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.lb:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+@media (max-width: 400px) {
+  .box {
+    width: fit-content;
+  }
+}
